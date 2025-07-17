@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+     font-family: "Walter Turncoat", cursive;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: slateblue;
+    color:ivory;
+    padding: 15px 10px;
+}
+h1{
+    margin: auto;
+    width: max-content;
+    font-size:xx-large;
+    padding: 1rem;
+    animation: animation 3s ease-in infinite;
+}
+@keyframes animation {
+    0%{
+        text-shadow: 0px 0px 5px brown;
+    }
+    50%{
+        text-shadow: 2px 2px 5px black;
+    }
+    100%{
+        text-shadow: 4px 4px 5px brown;
+
+    }
+}
+.badminton{
+    margin: auto;
+    border: 4px solid black;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.badminton img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    width: 500px;
+    margin: auto;
+    text-align: justify;
+}
